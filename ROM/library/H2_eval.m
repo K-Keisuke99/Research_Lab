@@ -1,0 +1,1 @@
+function ans=H2_eval(freq,FRF)ans=trapz(freq,FRF);end

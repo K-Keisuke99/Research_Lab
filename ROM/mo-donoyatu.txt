@@ -1,0 +1,10 @@
+FRF=return_FRF(mass,K,a*mass+b*K,damperMass,damperK,damperC,freq);
+D= [1.7752
+    1.7846
+    1.9186
+    1.9253];
+D=D*1000;
+legend(string(D))
+xlabel("Point")
+ylabel("Amplitude")
+grid on
